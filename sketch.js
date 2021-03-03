@@ -78,7 +78,7 @@ function draw() {
     ground.velocityX = -(6 + 3*score/100);
   
     if(keyDown("space") && trex.collide(invisibleGround)) {
-      trex.velocityY = -13;
+      trex.velocityY = -12;
     }
   
     trex.velocityY = trex.velocityY + 0.8
